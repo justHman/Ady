@@ -8,7 +8,7 @@ class Node:
 class BSTree:
     def __init__(self):
         self.root = None
-    
+     
     def insert_rc(self, new_number):
         new_node = Node(new_number)
         def rc(node):
